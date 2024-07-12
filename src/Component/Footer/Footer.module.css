@@ -1,0 +1,20 @@
+.contact{
+    /* background-image: url(../../../public/images/soil2.jpg); */
+    background-color: #E1F1D2;
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+   
+
+}
+.list{
+    list-style: none;
+
+}
+.text{
+    text-decoration: none;
+    color: #828282;
+}
+.icons{
+    color: #828282;
+}

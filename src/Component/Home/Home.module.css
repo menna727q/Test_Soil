@@ -1,0 +1,24 @@
+.btn {
+  
+    color: white;
+    text-decoration: none;
+    /* background:#426B1F ; */
+    border: 0;
+    border-radius: 5px;
+    /* font-style: italic; */
+}
+.h22{
+    font-style: italic;
+    
+}
+.pp{
+    font-size: 12px;
+}
+.image{
+    margin-top: -50px;
+    margin-bottom: -20px;
+   
+}
+.imm{
+    width: 230px;
+}

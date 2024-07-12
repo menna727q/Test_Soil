@@ -1,0 +1,109 @@
+:root {
+  --main-layout-bg: white;
+  --auth-layout-bg: #386231;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  background-color: var(--main-layout-bg) !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.navbar-nav .nav-link.active {
+  background-color: rgba(225, 241, 210,.7);
+  color: white;
+  border-radius:10% ;
+  position: relative;
+}
+/* .navbar-nav .nav-link.active::after {
+  content: "";
+  background-color: black;
+  height: 2px;
+  width: 48px;
+  bottom: -1px;
+  left: 5px;
+  position: absolute;
+} */
+.bg-main-light {
+  background-color: var(--light-color) !important;
+}
+.bg-green{
+  background-color: #386231;
+}
+.width{
+  width: 55%;
+}
+.box{
+  border: 2px black dashed;
+}
+
+.auth-layout {
+  background-color: var(--auth-layout-bg) !important;
+}
+
+.main-layout {
+  background-color: var(--main-layout-bg) !important;
+}
+.welcome{
+  color: #895404;
+}
+/* .soill{
+  font-family: 'Bowlby One SC';
+  font-weight: bolder;
+} */
+ .btn{
+  background-color: #DF911D !important;
+  color: white !important;
+ }
+ .text-red{
+  background-color: transparent !important;
+  color: red !important;
+ }
+ .modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: white !important;
+  padding: 20px;
+  border-radius: 10px !important;
+  text-align: center;
+  width: 40% !important;
+}
+.soill{
+  color: #386231;
+  font-weight: bold;
+}
+ul.list-unstyled {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+}
+
+li.crop-item {
+  margin: 5px 10px;
+  padding: 5px 10px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
